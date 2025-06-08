@@ -3,8 +3,8 @@
 ```mermaid
 flowchart TD
   A([Main]) --> B@{ shape:win-pan, label: "SuperAwesomeNumber" }
-  B --> C@ { shape:win-pan, label: "PlayerGuess" }
-  C --> D@ { shape: rect, label: SuperAwesomeNumber=(101) }
+  B --> C@{ shape:win-pan, label: "PlayerGuess" }
+  C --> D@{ shape: rect, label: SuperAwesomeNumber=(101) }
   D --> E[Output "To be super awesome you must correctly guess the most awesome number between 0 and 100!"/]
   E --> F[Input PlayerGuess/]
   F --> G{PlayerGuess <> SuperAwesomeNumber}
